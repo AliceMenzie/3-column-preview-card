@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --sedan-color: hsl(31, 77%, 52%);
+  --suv-color: hsl(184, 100%, 22%);
+  --lux-color: hsl(179, 100%, 13%);
+  --p-content: hsla(0, 0%, 100%, 0.75);
+  --heading-color: hsl(0, 0%, 95%);
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: var(--heading-color);
+  color: var(--p-content);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem 1rem;
+  margin: 3rem;
+  height: 25rem;
+}
+
+main div {
+  min-height: 14rem;
+  max-height: 28rem;
+  min-width: 10rem;
+  max-width: 10rem;
+}
+
+main div.sedan {
+  background-color: var(--sedan-color);
+  padding: 3rem;
+}
+
+img.img-sedan {
+  background-color: var(--sedan-color);
+  height: 1.75rem;
+}
+
+div.sedan-content {
+  background-color: var(--sedan-color);
+  height: 16rem;
+}
+
+main div.sedan h1 {
+  background-color: var(--sedan-color);
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+main div.sedan p {
+  background-color: var(--sedan-color);
+  font-size: 15px;
+}
+main div.suv {
+  background-color: var(--suv-color);
+  padding: 3rem;
+}
+
+div.suv-content {
+  background-color: var(--suv-color);
+  height: 16rem;
+}
+
+img.img-suv {
+  background-color: var(--suv-color);
+  height: 1.75rem;
+}
+
+main div.suv h1 {
+  background-color: var(--suv-color);
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+main div.suv p {
+  background-color: var(--suv-color);
+  font-size: 15px;
+}
+
+main div.lux {
+  background-color: var(--lux-color);
+  padding: 3rem;
+}
+
+div.lux-content {
+  background-color: var(--lux-color);
+  height: 16rem;
+}
+
+img.img-lux {
+  background-color: var(--lux-color);
+  height: 1.75rem;
+}
+
+main div.lux h1 {
+  background-color: var(--lux-color);
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+main div.lux p {
+  background-color: var(--lux-color);
+  font-size: 15px;
+}
+
+main div a.btn {
+  background-color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+  padding: 0.5rem 1.5rem;
+  font-size: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main div a.btn.btn-sedan {
+  background-color: var(--heading-color);
+  color: var(--sedan-color);
+}
+main div a.btn.btn-sedan:hover:active {
+  background-color: var(--sedan-color);
+  color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+}
+
+main div a.btn.btn-suv {
+  background-color: var(--heading-color);
+  color: var(--suv-color);
+}
+main div a.btn.btn-suv:hover:active {
+  background-color: var(--suv-color);
+  color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+}
+main div a.btn.btn-lux {
+  background-color: var(--heading-color);
+  color: var(--lux-color);
+}
+main div a.btn.btn-lux:hover:active {
+  background-color: var(--lux-color);
+  color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+}
+
+footer.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+  padding-bottom: 2rem;
+}
+footer.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-device-width: 650px) and (-webkit-min-device-pixel-ratio: 2) {
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin: 3rem;
+    height: 25rem;
+    position: relative;
+  }
+
+  div.sedan-content {
+    max-height: 10px;
+  }
+  div.suv-content {
+    max-height: 10px;
+  }
+  div.lux-content {
+    max-height: 10px;
+  }
+
+  main div {
+    max-height: 18rem;
+  }
+
+}
