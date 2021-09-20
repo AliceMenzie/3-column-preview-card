@@ -134,7 +134,7 @@ main div a.btn.btn-sedan {
   background-color: var(--heading-color);
   color: var(--sedan-color);
 }
-main div a.btn.btn-sedan:hover:active {
+main div a.btn.btn-sedan:hover {
   background-color: var(--sedan-color);
   color: var(--heading-color);
   border: 1px solid var(--heading-color);
@@ -144,7 +144,7 @@ main div a.btn.btn-suv {
   background-color: var(--heading-color);
   color: var(--suv-color);
 }
-main div a.btn.btn-suv:hover:active {
+main div a.btn.btn-suv:hover {
   background-color: var(--suv-color);
   color: var(--heading-color);
   border: 1px solid var(--heading-color);
@@ -153,7 +153,7 @@ main div a.btn.btn-lux {
   background-color: var(--heading-color);
   color: var(--lux-color);
 }
-main div a.btn.btn-lux:hover:active {
+main div a.btn.btn-lux:hover {
   background-color: var(--lux-color);
   color: var(--heading-color);
   border: 1px solid var(--heading-color);
