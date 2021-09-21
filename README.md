@@ -13,7 +13,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -26,19 +25,16 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+![Desktop View](https://user-images.githubusercontent.com/73300606/134095303-5326c848-0099-4e7f-8d14-befac2660ee4.png)
 
-![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Mobile View ](https://user-images.githubusercontent.com/73300606/134095266-98453c6a-cede-4bd1-a023-2dd693becb5c.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code Solution](https://github.com/AliceMenzie/3-column-preview-card)
+- Live Site URL: [Live Site](https://alicemenzie.github.io/3-column-preview-card/)
 
 ## My process
 
@@ -67,9 +63,3 @@ I learnt that working with a Mobile View is not as straightforward as it may see
 - Website - [Alice Menzie](https://www.alice.menzie.dev)
 - Frontend Mentor - [@alicemenzie](https://www.frontendmentor.io/profile/alicemenzie)
 - Github - [AliceMenzie](https://github.com/AliceMenzie)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
